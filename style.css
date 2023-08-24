@@ -1,0 +1,92 @@
+
+body{
+    background-color: #f9f8f4;
+    /* padding: 20px; */
+    font-family: sans-serif;
+    /* color: #F9F8F4; */
+}
+#title{
+    text-align: center;
+}
+
+
+#important{
+    color: red;
+    font-weight: bold;
+    font-size: larger; 
+}
+
+#underHeadings{
+
+}
+
+
+a{
+    color: black;
+    text-decoration: none;
+    padding: 3px;
+    margin: 3px;
+    
+}
+a:hover{
+    background: #eeeeee;
+    transition: .5s;
+}
+
+#contentBox{
+    padding: 10px;
+    border-radius: 5px;
+    /* border: 0.5px solid black; */
+    background: rgba(175, 175, 175, 0.6)
+}
+
+
+#contentBoxTitle{
+    /* overflow: hidden; */
+    /* text-overflow: clip; */
+    box-sizing: border-box;
+    /* max-height: fit-content; */
+    /* word-wrap: break-word;     */
+    text-align: center;
+    font-family: sans-serif;
+    /* height: 140px; */
+
+    width: 100%;
+    background: rgba(#ffffff, 0.6);
+    box-shadow: 0 4px 7px 0 rgba(0,0,0,.2);    
+    font-weight: bold;
+    padding:30px;
+}
+
+
+
+@media (max-width:470px){label.title{font-size:28px;}}
+
+/* wrap the content in thebox 
+make image slider  */
+
+.slideContainer{
+    width:100%;
+    display: flex;
+    overflow: scroll;
+    scroll-snap-type: x mandatory;
+}
+
+
+/* .slider-container{
+    height: 500px;
+    width:800px;
+    display: flex;
+    overflow: scroll;   
+    scroll-snap-type: x mandatory;
+}
+
+.slider-container .slide{
+    scroll-snap-align: start;
+}
+.slider-container img{
+    width: 800px;
+    height: 100%;
+    object-fit: cover;
+
+} */
