@@ -27,9 +27,9 @@ body > :not(footer){
     font-size: larger; 
 }
 
-#underHeadings{
+/* #underHeadings{
 
-}
+} */
 
 
 a{
@@ -103,7 +103,7 @@ make image slider  */
 } */
 
 footer{
-    padding: 10px;
+    padding: 30px;
     text-align: center;
     align-items: center;
     justify-content: center;
