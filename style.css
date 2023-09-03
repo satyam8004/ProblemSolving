@@ -90,3 +90,22 @@ make image slider  */
     object-fit: cover;
 
 } */
+
+footer{
+    padding: 10px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    color: #f9f8f4;
+    font-family: sans-serif;
+
+    
+    /* background-color: #d8d8d8; */
+    /* color: rgb(37, 37, 37); */
+}
+
+.footerBottom{
+    font-size: small;
+
+}
